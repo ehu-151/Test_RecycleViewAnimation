@@ -10,5 +10,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding=DataBindingUtil.setContentView<ActivityMainBinding>(this,R.layout.activity_main)
+        // fragmentのset
+        val maneger = supportFragmentManager
+        val transition = maneger.beginTransaction()
+        transition.replace(R.id.container, FeedList1Fragment())
+        transition.commit()
     }
 }
