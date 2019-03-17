@@ -4,16 +4,12 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import com.example.ehu.test_recycleviewanimation.databinding.FragmentFeedList1Binding
-import android.R.anim.*
 import android.view.animation.AnimationUtils
-import android.view.animation.LayoutAnimationController
-import android.support.v7.widget.RecyclerView
-
+import com.example.ehu.test_recycleviewanimation.databinding.FragmentFeedList1Binding
 
 
 class FeedList1Fragment : Fragment() {
